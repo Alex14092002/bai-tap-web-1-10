@@ -1,0 +1,69 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+
+.content-text{
+    text-align: center;
+}   
+.container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    gap : 12px ;
+   
+}
+.item { 
+   padding: 3.3% ;
+    border-radius: 5px; 
+    text-align: center;
+    color :#FFF;
+    width: 30% ;
+}
+.text{
+    color:black;
+    background-color:#FFF;
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+}
+.text-heading{
+    background-color:rgb(222, 251, 251);
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+}
+.background{
+    background-color:rgb(242, 240, 240); 
+}
+
+/* Reponsive */
+/* Tương thích trên các màn hình */
+
+/* Màn hình máy tính ( defaut )  */
+
+/* 
+
+Máy tính >=  1080px 
+
+Ipad , Máy tính bảng có >= 768px */
+
+/* Diện thoại < 768px */
+/* Mobile first */ 
+
+
+
+/* khu vực để style cho điện thoại */
+@media( max-width : 768px){
+
+    .item{
+        width: 100%;
+    }
+    .text-heading{
+        color: #000;
+    }
+   
+}
